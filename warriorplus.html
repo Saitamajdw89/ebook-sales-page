@@ -112,6 +112,60 @@
     .sticky{display:none}
     footer{padding-bottom:36px}
   }
+
+  /* WarriorPlus sales-page disclaimer (required near the buy button) */
+  .wplus_spdisclaimer{
+    margin:18px 0 0;
+    padding:0;
+    text-align:left;
+    font-size:1rem;
+    line-height:1.6;
+    color:var(--text);
+    background:transparent !important;
+    border:none;
+    box-shadow:none;
+  }
+  .wplus_spdisclaimer,
+  .wplus_spdisclaimer p,
+  .wplus_spdisclaimer span,
+  .wplus_spdisclaimer div,
+  .wplus_spdisclaimer li{
+    font-size:1rem !important;
+    line-height:1.6 !important;
+    color:var(--text) !important;
+    background:transparent !important;
+    border:none !important;
+    box-shadow:none !important;
+  }
+  .wplus_spdisclaimer a{
+    color:var(--gold2) !important;
+    text-decoration:underline;
+    background:transparent !important;
+  }
+  .wplus_spdisclaimer a:hover,
+  .wplus_spdisclaimer a:focus{
+    color:var(--gold) !important;
+  }
+
+  /* Legal / policy sections */
+  .legal{max-width:760px;margin:0 auto}
+  .legal h2{text-align:left}
+  .legal p{margin:0 0 14px;color:var(--text);font-size:1rem;line-height:1.6}
+  .legal ul{margin:0 0 14px;padding-left:22px}
+  .legal li{margin:6px 0;line-height:1.6}
+  #privacy-policy,#income-disclaimer,#support{scroll-margin-top:16px}
+
+  /* Prominent footer legal/support bar */
+  .footer-nav{
+    display:flex;flex-wrap:wrap;justify-content:center;align-items:center;
+    gap:8px 0;margin:0 0 22px;padding:16px 14px;
+    border:1px solid var(--line);border-radius:12px;
+    font-size:16px;line-height:1.6;text-align:center;color:var(--text)
+  }
+  .footer-nav a{color:var(--gold2);font-weight:800;text-decoration:underline}
+  .footer-nav a:hover,.footer-nav a:focus{color:var(--gold)}
+  .footer-nav .sep{color:var(--muted);font-weight:700;padding:0 10px}
+  .footer-contact{font-size:16px;color:var(--text);line-height:1.6;margin:0 0 18px}
   @media (min-width:1000px){ .links{grid-template-columns:repeat(3,1fr)} }
 </style>
 </head>
@@ -212,6 +266,7 @@
       <div class="wp-buy">
         <a href="https://warriorplus.com/o2/buy/s3282s/z6v6tm/j78qzj"><img src="https://warriorplus.com/o2/btn/fn100011001/s3282s/z6v6tm/482264" alt="Buy Now - Make Money Online for Free ($9.99)"></a>
       </div>
+      <div class="wplus_spdisclaimer"></div>
       <p class="secure">Secure checkout through WarriorPlus · <strong>30-day money-back guarantee</strong></p>
     </div>
   </div>
@@ -334,11 +389,59 @@
   </div>
 </section>
 
+
+<!-- ============ PRIVACY POLICY ============ -->
+<section id="privacy-policy">
+  <div class="wrap legal">
+    <h2>Privacy Policy</h2>
+    <p>This Privacy Policy explains how JW Digital Guides ("we," "us") collects and uses information when you visit this page or purchase <em>Make Money Online for Free: A Beginner's Blueprint to Affiliate Marketing Without Paid Ads</em>.</p>
+    <h3>Information collected at checkout</h3>
+    <p>When you buy this ebook, your payment and checkout details are collected and processed securely by WarriorPlus and PayPal. We do not see or store your full payment card information. Those companies handle checkout according to their own privacy and security practices.</p>
+    <h3>Support emails</h3>
+    <p>If you contact us for help, we will receive the information you send &mdash; such as your name, email address, and the details of your request &mdash; at our support email: <a href="mailto:4xb3pr0q@mail.grokbot.com">4xb3pr0q@mail.grokbot.com</a>. We use that information only to respond to you and to fulfill your request.</p>
+    <h3>How we use and share information</h3>
+    <p>We do not sell, rent, or trade your personal data to third parties. We use information only to deliver your purchase, provide customer support, and operate this website.</p>
+    <h3>Cookies and website data</h3>
+    <p>Like most websites, this page and our checkout providers may use cookies or similar technologies to operate the site, remember preferences, keep checkout secure, and understand basic, anonymous usage. You can control cookies through your browser settings.</p>
+    <h3>Requesting deletion of your data</h3>
+    <p>To request that we delete personal information we hold about you, email <a href="mailto:4xb3pr0q@mail.grokbot.com">4xb3pr0q@mail.grokbot.com</a>. We will respond as promptly as we reasonably can. Please note that WarriorPlus and PayPal may retain records they are required to keep for payment, tax, or legal purposes under their own policies.</p>
+  </div>
+</section>
+
+<!-- ============ INCOME & EARNINGS DISCLAIMER ============ -->
+<section id="income-disclaimer">
+  <div class="wrap legal">
+    <h2>Income &amp; Earnings Disclaimer</h2>
+    <p>This ebook, <em>Make Money Online for Free</em>, and this sales page are provided for educational and informational purposes only. They are not a promise of financial success.</p>
+    <p>Results vary from person to person. We do not guarantee any specific income, earnings, or financial result. Any past results, examples, testimonials, or illustrations mentioned in the book or on this page are not typical and should not be treated as a prediction of what you will earn.</p>
+    <p>Your success depends on many factors, including your individual effort, skills, consistency, choices, and current market conditions. Some people may earn little or nothing, even if they follow the material carefully.</p>
+    <p>This guide is not legal, financial, tax, or professional advice. Always use your own judgment and, if needed, consult a qualified professional.</p>
+    <p><strong>FTC disclosure:</strong> This guide and this page contain affiliate links. If you click one of those links and make a purchase, we may earn a commission at no extra cost to you.</p>
+  </div>
+</section>
+
+<!-- ============ CUSTOMER SUPPORT ============ -->
+<section id="support">
+  <div class="wrap legal">
+    <h2>Customer Support</h2>
+    <p>Need help with your download, have a question about the ebook, or want to request a refund under our 30-day money-back guarantee? We are here to help.</p>
+    <p>Email us anytime at <a href="mailto:4xb3pr0q@mail.grokbot.com">4xb3pr0q@mail.grokbot.com</a>. Buyers can reach out anytime for download help or 30-day refund requests, and we will get back to you as soon as we can.</p>
+  </div>
+</section>
+
 </main>
 
 <!-- ============ FOOTER ============ -->
 <footer>
   <div class="wrap">
+    <nav class="footer-nav" aria-label="Legal and support">
+      <a href="#privacy-policy">Privacy Policy</a>
+      <span class="sep" aria-hidden="true">&middot;</span>
+      <a href="#income-disclaimer">Income Disclaimer</a>
+      <span class="sep" aria-hidden="true">&middot;</span>
+      <a href="mailto:4xb3pr0q@mail.grokbot.com">Support (4xb3pr0q@mail.grokbot.com)</a>
+    </nav>
+    <p class="footer-contact">Customer support: <a href="mailto:4xb3pr0q@mail.grokbot.com">4xb3pr0q@mail.grokbot.com</a> &mdash; reach out anytime for download help or 30-day refund requests.</p>
     <p><strong>Affiliate disclosure:</strong> Some links on this page are affiliate links. I may earn a commission at no extra cost to you.</p>
     <p>Disclosure: This guide contains affiliate links. Results vary and are not guaranteed.</p>
     <p><strong>Earnings disclaimer:</strong> This book and page are for educational purposes only. There is no guarantee of income or any specific result. Results vary from person to person and depend on your own effort, choices and circumstances. This is not legal, financial or tax advice.</p>
